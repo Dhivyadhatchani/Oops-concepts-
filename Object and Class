@@ -1,0 +1,17 @@
+class Books:
+    def Novels (Title,Author):
+        print ("Book Title:",Title)
+        print ("Author:",Author)
+    def Poems (Title,Author):
+        print ("Book Title:",Title)
+        print ("Poet:",Author)
+Novels =Books ()
+Novels.Title="Ponniyin Selvan"
+print ("Book Title:",Novels.Title)
+Novels.Author="kalki"
+print ("Author:",Novels.Author)
+Poems =Books ()
+Poems.Title="Bharathiyar Kavithaigal"
+print ("Book Title:",Poems.Title)
+Poems.Author="Bharathiyar"
+print ("Poet:",Poems.Author)
