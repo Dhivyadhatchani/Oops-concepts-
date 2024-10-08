@@ -1,0 +1,7 @@
+class Customer():
+    def __init__(self):
+        self.CustomerName="Sara"
+        self.__MobileNo=987654321
+C1=Customer()
+print (C1.CustomerName)
+print (C1.__MobileNo)
