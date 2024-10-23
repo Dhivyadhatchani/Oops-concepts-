@@ -1,0 +1,42 @@
+#Inheritance and its types
+
+#Single Inheritance:
+#Creating a class dad
+class dad():
+#Defining a object phone in dad class 
+    def phone(self):
+        print("Dad's Phone")
+#Creating a class son acessing dad class
+class son(dad):
+#Defining a object laptop in son class 
+    def laptop(self):
+        print("Son's Laptop")
+#Mentioning Ram as son in son class
+Ram=son()
+#Ram accessing the object laptop in son class
+Ram.laptop()
+#Ram accessing the object phone in dad class
+Ram.phone()
+
+#Multiple Inheritance 
+#Creating a class Dad
+class Dad():
+#Defining a object Phone in Dad class
+    def Phone(self):
+        print("Dad's Phone")
+#Creating a class Mom
+class Mom():
+#Defining a object Sweet in Mom class
+    def Sweet(self):
+        print("Mom's Sweet")
+#Creating a class Son accessing Mom and Dad class 
+class Son(Dad,Mom):
+#Defining a object Laptop in Son class 
+    def Laptop():
+        print("Son's Laptop")
+#Mentioning Ram as Son
+Ram=Son()
+#Ram accessing object in Dad class
+Ram.Phone()
+#Ram accessing object in Mom class
+Ram.Sweet()
